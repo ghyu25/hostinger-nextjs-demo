@@ -1,3 +1,7 @@
+// ---------------------------------------------------------
+// Original Next.js starter page (kept for reference)
+// ---------------------------------------------------------
+/*
 import Image from "next/image";
 
 export default function Home() {
@@ -61,5 +65,24 @@ export default function Home() {
         </div>
       </main>
     </div>
+  );
+}
+*/
+
+// ---------------------------------------------------------
+// Your custom homepage
+// ---------------------------------------------------------
+
+export default function Home() {
+  return (
+    <main className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-gray-100 font-sans p-6">
+      <h1 className="text-3xl font-bold mb-4 tracking-wide">
+        nextjs.allvirtualware.com
+      </h1>
+
+      <p className="text-xl opacity-90">
+        Hello from Next.js !
+      </p>
+    </main>
   );
 }
