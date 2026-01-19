@@ -81,7 +81,7 @@ export default function Home() {
       </h1>
 
       <p className="text-xl opacity-90">
-        Hello from Next.js !
+        Hello from Next.js !  JAN 19 12:55 AM
       </p>
     </main>
   );
